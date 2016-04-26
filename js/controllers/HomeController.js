@@ -98,7 +98,14 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
 	/* ADD VARIABLES FOR STEP 3 HERE */
 	
-	
+	var app = angular.module('demo', []);
+      app.controller('Homeontroller', ['$scope',
+            function($scope) {
+                  $scope.title = "IMDB + Adaoha's Top 8 Movies";
+                  $scope.owner = "Adaoha";
+                  $scope.github = "https://github.com/adaohauzoho";
+            }
+      ]);
 	
 	
 	
