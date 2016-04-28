@@ -41,9 +41,10 @@
     <div class="main">
       
       <div class="container">
+      		<div ng-repeat="movie in movies">
 
-        <div class="col-md-6"> 
-            <div class="thumbnail">
+        	<div class="col-md-6"> 
+            	<div class="thumbnail">
 
 					<img class="poster" ng-src="{{movies[0].posters[0]}}"/>
  +					<div class="imageInfo">{{movies[0].posterindex}}</div>
@@ -66,8 +67,8 @@
 
     <div class="footer">
       <div class="container">
-		<a id="github" class="btn btn-lg btn-warning">
-			<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i> {{owner}} {{github}}
+			<a id="github" class="btn btn-lg btn-warning" ng-href="{{github}}" target="_blank">
+ 			<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i> {{owner}}
   		</a>
       </div>
     </div>
