@@ -100,22 +100,36 @@ app.controller('HomeController', ['$scope', function($scope) {
                   $scope.title = "IMDB + Adaoha's Top 8 Movies";
                   $scope.owner = "Adaoha";
                   $scope.github = "https://github.com/adaohauzoho";
-            }
-      ]);
-	
+    
 	
 	
 	
 	
 	
 	/* ADD FUNCTIONS FOR STEP 7 HERE */
+      /* Create funtions .like, .dislike, .posterClick, & .timeText*/
+
+           $scope.like = function(index){
+             $scope.movies[index].likes += 1;
+       };
+ 
+       $scope.dislike = function(index){
+             $scope.movies[index].dislikes += 1;
+       };
+ 
+       $scope.posterClick = function(index){
+             console.log($scope.movies[index].posterindex);
+             if ($scope.movies[index].posterindex < $scope.movies[index].posters.length-1) {
+                   $scope.movies[index].posterindex += 1;
+             }
+             else{
+                   $scope.movies[index].posterindex = 0;
+             }
+       };
+ 
+       $scope.timeText = function(minutes){
+             return (Math.floor(minutes/60) + "h " + minutes % 60 + "m");
+       };
 		
-	
-	
-	
-	
-	
-	
-	
 	
 }]);
