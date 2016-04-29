@@ -88,7 +88,53 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
+
+      { 
+      title:      'The Sound of Music', 
+      iscore:     8.0,
+      rating:     'G',
+      runtime:    165,
+      released:   new Date('1965', '', ''),
+      country:    'UK',
+      posters:    ['img/som1.jpg','img/som2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0059742/',
+      website:    'http://www.sound-of-music.com/',
+      likes:      402,
+      dislikes:   119,
+      posterindex: 0
+      },
+
+            { 
+      title:      'Hotel Rwanda', 
+      iscore:     8.1,
+      rating:     'PG-13',
+      runtime:    121,
+      released:   new Date('2004', '', ''),
+      country:    'USA',
+      posters:    ['img/hotel_rwanda.jpg','img/hotel_rwanda2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0395169/?ref_=ttmd_md_nm',
+      website:    'http://www.mgm.com/#/our-titles/900/Hotel-Rwanda/',
+      likes:      603,
+      dislikes:   187,
+      posterindex: 0
+      },
+
+            { 
+      title:      'Pride & Prejudice', 
+      iscore:     7.8,
+      rating:     'PG',
+      runtime:    129,
+      released:   new Date('2005', '', ''),
+      country:    'USA',
+      posters:    ['img/pandp1.jpg','img/pandp2.jpg'],
+      imdb:       'http://www.imdb.com/title/tt0414387/?ref_=nv_sr_2',
+      website:    'http://www.focusfeatures.com/pride_and_prejudice',
+      likes:      1053,
+      dislikes:   176,
+      posterindex: 0
+      }
+
 	
 	
   ];
