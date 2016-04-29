@@ -90,7 +90,7 @@ app.controller('HomeController', ['$scope', function($scope) {
       posterindex: 0
 	},
 
-      { 
+    { 
       title:      'The Sound of Music', 
       iscore:     8.0,
       rating:     'G',
@@ -105,7 +105,7 @@ app.controller('HomeController', ['$scope', function($scope) {
       posterindex: 0
       },
 
-            { 
+    { 
       title:      'Hotel Rwanda', 
       iscore:     8.1,
       rating:     'PG-13',
@@ -120,7 +120,7 @@ app.controller('HomeController', ['$scope', function($scope) {
       posterindex: 0
       },
 
-            { 
+    { 
       title:      'Pride & Prejudice', 
       iscore:     7.8,
       rating:     'PG',
