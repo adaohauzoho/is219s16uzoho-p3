@@ -123,12 +123,8 @@ body {
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
 .likes{
     background-color: #008700
-    color: #ffffff;
-    transition: background 500ms;
-    -moz-transition: 500 ms;
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    -ms-transition: 500ms;
+
+
 
 
 }
@@ -146,12 +142,7 @@ body {
 
 .dislikes{
     background-color: #f65a5b
-    color: #ffffff ;
-    transition: background 500ms;
-    -moz-transition: 500 ms;
-    -webkit-transition: 500ms;
-    -o-transition: 500ms;
-    -ms-transition: 500ms;
+
 
 }
 
